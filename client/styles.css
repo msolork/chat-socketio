@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.hide{ display: none; }
+
+.welcome{
+    width: 100%;
+    height: 100%;
+    background: black;
+    position: absolute;
+    z-index: 99;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.welcome div{
+    position:absolute;
+    text-align: center;
+    top: calc(50% - 93px);
+    left: calc(50% - 153px);
+}
+
+.welcome div input{
+    border: 0;
+    border-bottom: 1px solid white;
+    outline: 0;
+    background: transparent;
+    color: #fff;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    width: 15em;
+    padding-bottom: 5px;
+}
+
+.user {
+    background: black;
+    padding: 10px 5px;
+}
+
+.user h1{
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.user h1 .username {
+    color: blue;
+    font-size: 23px;
+}
+
+#messages{ overflow-y: scroll; }
+
+.add-message{
+    bottom: 0;
+    border: 7px solid #000;
+    position: absolute;
+    width: 100%;
+}
+
+.add-message input {
+    outline: 0;
+    border: 0;
+    padding: 5px;
+    width: 100%;
+}
+
+
+.message{
+    box-sizing: border-box;
+    margin: 5px 10px;
+}
+
+.message .name{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.message .text {
+    display: inline;
+    font-size: 22px;
+}
+
+.you .name{ color: darkgreen; }
+.you .text { margin-left: 10px; }
+
+.me{ text-align: right; }
+.me .name{ color: darkblue; }
+.me .text { margin-right: 10px; }
+
+
+.new-user{
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 22px;
+    color: #5f9ea0;
+    font-weight: 500;
+}
